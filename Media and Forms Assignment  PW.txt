@@ -1,0 +1,176 @@
+﻿Media and Forms Assignment -
+
+
+1.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <img src="./media/vector-web-development-web-banner.jpg" width="600" loading="crazy" alt="Image 1">
+    <img src="./media/html-web-development-services.jpg" width="400"  alt="Image 2">
+    <img src="./media/1694669327.webp"  width="400" alt="Image 3">
+    </div>
+</body>
+</html>
+Output:
+  
+
+2.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTUM</title>
+</head>
+<body>
+    <h2>Hum toh deewane hai deewane Audio is here: </h2>
+    <audio src="./media/Hum Toh Deewane Yasser Desai 128 Kbps.mp3" controls ></audio>
+
+
+    <h2>Hum toh deewane video is here:</h2>
+    <video src="./media/Hum-To-Deewane-Elvish-Yadav-Urvashi-Rautela-Status-Videos.mp4" width="200" controls></video>
+</body>
+</html>
+
+
+Output:
+  
+
+
+
+3.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hum toh Deewane audio</h2>
+    <audio src="./media/Hum Toh Deewane Yasser Desai 128 Kbps.mp3" controls autoplay loop></audio>
+     <h2>Hum toh deewane video</h2>
+    <video src="media/Hum-To-Deewane-Elvish-Yadav-Urvashi-Rautela-Status-Videos.mp4"  width="300"controls autoplay loop></video>
+</body>
+</html>
+Output:
+  
+
+
+
+4.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" width="1550" height="700"></iframe>
+</body>
+</html>
+Output:
+  
+
+
+
+5.
+(a)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up</h1>
+    <form action="backend.php">
+         <label for="First name">First name:</label>
+        <input type="text" id="First name" placeholder="Satyam" required><br>
+       
+        <label for="Last name">Last name:</label>
+        <input type="text" id="Last name" placeholder="Singh" required><br>
+       
+        <label for="email">Email:</label>
+        <input type="text" id="email" minlength="3" placeholder="abc@gmail.com" required><br>
+       
+        <label for="password">Password:</label>
+        <input type="text" id="password" placeholder="'*********" required><br>
+       
+        <label for="Confirm password ">Confirm password:</label>
+        <input type="text" id="Confirm password" placeholder="***********" required><br>
+       
+        <label for="age"> Age:</label>
+        <input type="text" id="Age" placeholder="20" required><br>
+       
+        <label for="gender">Choose your gender:</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">other</option>
+        </select><br>
+
+
+        <label for="terms and condition">Agree to terms and condition</label>
+        <input type="checkbox" name="Agree to terms and condition" id="terms and condition" required><br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+       
+   
+</body>
+</html>
+
+
+Output:
+  
+
+(b)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Sign in</h1>
+    <form action="backend.php">
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        id="email"
+        minlength="3"
+        placeholder="abc@gmail.com"
+        required
+      /><br />
+
+
+      <label for="password">Password:</label>
+      <input
+        type="text"
+        id="password"
+        placeholder="'*********"
+        required
+      /><br />
+
+
+      remember me:<input type="checkbox" name="" id="" /><br />
+
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+
+
+
+Output:
